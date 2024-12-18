@@ -1,0 +1,270 @@
+body {
+    background-color: #f5f3ed;
+    font-family: 'Georgia', serif;
+}
+.bg-dark {
+    background-color: #4b3b30 !important;
+    background-image: url('https://cdn.pixabay.com/photo/2014/06/28/12/35/books-378903_1280.jpg');
+
+}
+.nav-link {
+    color: #f4e6d7 !important;
+}
+.nav-link:hover {
+    color: #c0a98b !important;
+}
+.text-white {
+    color: #f4e6d7 !important;
+}
+footer {
+    background-color: #4b3b30;
+    color: #f4e6d7;
+}
+.dropdown-menu {
+    background-color: #4b3b30;
+}
+.dropdown-menu .dropdown-item {
+    color: #f4e6d7;
+}
+.dropdown-menu .dropdown-item:hover {
+    color: #c0a98b;
+    background-color: transparent;
+}
+.rounded-circle {
+    border: 2px solid #c0a98b;
+}
+
+.btn-custom {
+    display: inline-block; /* Ensures proper button shape */
+
+    background-color: #2a5934; /* Dark forest green */
+    /*background-color: #6b705c; !* Muted olive green *!*/
+    color: #f4e6d7; /* Light text */
+    border: 1px solid #c0a98b; /* Gold accent */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+    transition: all 0.3s ease;
+    text-decoration: none; /* Ensures no underline */
+}
+.btn-custom:hover {
+    background-color: #3c7650; /* Slightly lighter green */
+    color: #ffffff; /* Pure white text */
+    border-color: #d4a373; /* Golden accent */
+    text-decoration: none; /* Retains no underline on hover */
+}
+.btn-icon {
+    display: inline-flex; /* Ensures icon alignment */
+    justify-content: center;
+    align-items: center;
+    width: 36px; /* Fixed size for uniform buttons */
+    height: 36px;
+    background-color: #2a5934; /* Forest green */
+    color: #f4e6d7; /* Light text */
+    border: 1px solid #c0a98b; /* Gold accent */
+    border-radius: 50%; /* Circular button */
+    font-size: 1.2rem; /* Adjust icon size */
+    transition: all 0.3s ease;
+    text-decoration: none; /* No underline */
+}
+.btn-icon:hover {
+    background-color: #3c7650; /* Slightly lighter green */
+    color: #ffffff; /* Pure white text */
+    border-color: #d4a373; /* Golden accent */
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f5f3ed; /* Light background */
+    color: #4b3b30; /* Dark text */
+}
+.table th {
+    background-color: #d4a373; /* Golden ochre */
+    /*background-color: #6b705c; !* Muted olive green *!*/
+    color: #4b3b30; /* Dark text */
+    padding: 10px;
+    text-align: left;
+}
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #c0a98b; /* Gold accent */
+}
+
+/* General form container */
+.form-container {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 20px;
+    border: 1px solid #c0a98b; /* Gold border for definition */
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form titles */
+.form-container h2 {
+    text-align: center;
+    color: #4b3b30;
+    font-family: 'Georgia', serif;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #c0a98b; /* Gold border */
+    border-radius: 4px;
+    font-family: 'Georgia', serif;
+    transition: all 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #2a5934; /* Dark green on focus */
+    outline: none;
+}
+
+/* Buttons inside forms */
+.btn-custom-form {
+    display: inline-block;
+    background-color: #2a5934;
+    color: #f4e6d7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn-custom-form:hover {
+    background-color: #3c7650;
+    border-color: #d4a373;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    color: #4b3b30;
+    margin: 5px 0;
+}
+
+/* Checkbox & Radio buttons */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+label input[type="checkbox"],
+label input[type="radio"] {
+    margin-left: 5px;
+}
+
+/* Style for select fields */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f5f3ed;
+    color: #4b3b30;
+    padding: 10px;
+    border: 1px solid #c0a98b;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Style for error messages */
+.form-error {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+/* Style for checkbox container */
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Individual checkbox styling */
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    background-color: #f5f3ed !important;
+    padding: 10px;
+    border: 1px solid #c0a98b;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.checkbox-item input {
+    margin-right: 10px;
+}
+
+.checkbox-item:hover {
+    background-color: #e9e7e1;
+}
+
+/* Badge styling for publishers */
+.badge-custom {
+    display: inline-block;
+    background-color: #2a5934; /* Forest green */
+    color: #f4e6d7; /* Light text */
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-family: 'Georgia', serif;
+    margin-right: 5px; /* Space between badges */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.badge-custom:hover {
+    background-color: #3c7650; /* Slightly lighter green */
+    color: #ffffff; /* Pure white */
+    cursor: default; /* Optional: Prevent pointer style */
+}
+.custom-multi-select {
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    padding: 5px;
+    color: #333; /* Ensures text isn't inheriting browser defaults */
+}
+
+/* Remove default blue highlighting on focus */
+.custom-multi-select:focus {
+    border-color: #555;
+    box-shadow: none;
+}
+
+/* Change the style for selected items */
+.custom-multi-select option:checked {
+    background-color: #555 !important; /* Change selected background */
+    color: #fff; /* Change text color */
+}
+
+/* Change hover effect if desired */
+.custom-multi-select option:hover {
+    background-color: #777;
+    color: #fff;
+}
+
+
+
+
